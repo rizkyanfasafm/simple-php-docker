@@ -7,7 +7,7 @@ services:
       - "443:443"
     volumes:
       - ./src:/var/www/html
-      - ./nginx/prod.conf:/etc/nginx/conf.d/hi.conf
+      - ./nginx/prod.conf:/etc/nginx/conf.d/hi.anfasa.xyzconf
       - /etc/ssl/hi.anfasa.xyz:/etc/nginx/ssl
     depends_on:
       - app
